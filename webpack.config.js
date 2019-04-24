@@ -1,0 +1,51 @@
+const CleanWebpackPlugin = require('clean-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+
+const src = `${__dirname}/src`
+
+module.exports = (_, { mode = 'development' }) => {
+  return {
+    mode,
+    entry: './src/main.js',
+    output: {
+      filename: 'js/[name].[contenthash].js',
+    },
+    resolve: {
+      extensions: ['.js', '.svelte', '.json'],
+      alias: { '@': src }
+    },
+    plugins: [
+      new CleanWebpackPlugin(),
+      new HtmlWebpackPlugin({ template: 'src/index.html' }),
+      new MiniCssExtractPlugin({ filename: 'css/[name].[contenthash].css' })
+    ],
+    module: {
+      rules: [
+        {
+          test: /\.svelte$/,
+          include: src,
+          loader: 'svelte-loader',
+          options: {
+            hotReload: true,
+            emitCss: true
+          }
+        },
+        {
+          test: /\.css$/,
+          include: src,
+          use: [
+            {
+              loader:  MiniCssExtractPlugin.loader,
+              options: { hmr: mode !== 'production' }
+            },
+            'css-loader'
+          ]
+        }
+      ]
+    },
+    devServer: {
+      port: 9876
+    }
+  }
+}
