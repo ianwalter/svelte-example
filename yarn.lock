@@ -86,6 +86,14 @@
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.4.3.tgz#eb3ac80f64aa101c907d4ce5406360fe75b7895b"
   integrity sha512-gxpEUhTS1sGA63EGQGuA+WESPR/6tz6ng7tSHFCmaTJK/cGK8y37cBTspX+U2xCAue2IQVvF6Z0oigmjwD8YGQ==
 
+"@babel/runtime-corejs3@^7.4.4":
+  version "7.4.4"
+  resolved "https://registry.yarnpkg.com/@babel/runtime-corejs3/-/runtime-corejs3-7.4.4.tgz#37fab72b23e6c7024e8ae494a2cd019cae2a2206"
+  integrity sha512-9uYCgQvCVw4Jl5vVyTt6ZYIAgsLyAKx0CvBqOJW0D/bRx/jSOQS1A+31GiisgKhgyTt3/CWnbdGzFxxw8NOtlw==
+  dependencies:
+    core-js-pure "^3.0.0"
+    regenerator-runtime "^0.13.2"
+
 "@babel/runtime@^7.3.1":
   version "7.4.3"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.4.3.tgz#79888e452034223ad9609187a0ad1fe0d2ad4bdc"
@@ -165,6 +173,14 @@
     eslint-plugin-promise "^4.0.1"
     eslint-plugin-standard "^4.0.0"
 
+"@ianwalter/history-router@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@ianwalter/history-router/-/history-router-0.0.1.tgz#ed7138ddb2685f370ccb3c1f3f72d0a8532f907d"
+  integrity sha512-yHTv8uTqnHVMNzX2+0mQQ0JJ5R6d89XJHFAB2Le4ib8CkjbOBHw68Hkt+jE2DzPx8qSVLhtoTkR1kfPnZKPHCQ==
+  dependencies:
+    "@babel/runtime-corejs3" "^7.4.4"
+    "@ianwalter/router" "^1.1.0"
+
 "@ianwalter/log@^3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@ianwalter/log/-/log-3.0.0.tgz#c85f7343e28e98d0a4c872a42e6bdd6d8b302e8d"
@@ -186,6 +202,11 @@
     chalk "^2.4.2"
     has-ansi "^3.0.0"
     has-emoji "^1.0.0"
+
+"@ianwalter/router@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/router/-/router-1.1.0.tgz#a16e186555157f4803d937deeb5ed7d38705e25f"
+  integrity sha512-yk+eHcgk8tVDbIxkYKIFx1U1Z11qoc8V3PXdreeR4n5TydI8RPJhTmQ5l0Uq+AAdCp7BTpM6XaF90f0693VYcA==
 
 "@jest/console@^24.7.1":
   version "24.7.1"
@@ -1170,6 +1191,11 @@ copy-descriptor@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
+
+core-js-pure@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.0.1.tgz#37358fb0d024e6b86d443d794f4e37e949098cbe"
+  integrity sha512-mSxeQ6IghKW3MoyF4cz19GJ1cMm7761ON+WObSyLfTu/Jn3x7w4NwNFnrZxgl4MTSvYYepVLNuRtlB4loMwJ5g==
 
 core-util-is@~1.0.0:
   version "1.0.2"

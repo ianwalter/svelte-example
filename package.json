@@ -9,6 +9,9 @@
     "build": "webpack -p",
     "start": "webpack-dev-server"
   },
+  "dependencies": {
+    "@ianwalter/history-router": "^0.0.1"
+  },
   "devDependencies": {
     "@ianwalter/bff": "^3.2.0",
     "@ianwalter/eslint-config": "^1.1.2",

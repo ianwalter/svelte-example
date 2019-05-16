@@ -5,11 +5,12 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const src = `${__dirname}/src`
 
 module.exports = (_, { mode = 'development' }) => {
+  const isProduction = mode === 'production'
   return {
     mode,
     entry: './src/main.js',
     output: {
-      filename: 'js/[name].[contenthash].js',
+      filename: `js/[name].[${isProduction ? 'contenthash' : 'hash'}].js`,
     },
     resolve: {
       extensions: ['.js', '.svelte', '.json'],
@@ -27,7 +28,7 @@ module.exports = (_, { mode = 'development' }) => {
           include: src,
           loader: 'svelte-loader',
           options: {
-            hotReload: true,
+            hotReload: false,
             emitCss: true
           }
         },
@@ -37,7 +38,7 @@ module.exports = (_, { mode = 'development' }) => {
           use: [
             {
               loader:  MiniCssExtractPlugin.loader,
-              options: { hmr: mode !== 'production' }
+              options: { hmr: !isProduction }
             },
             'css-loader'
           ]
@@ -45,7 +46,10 @@ module.exports = (_, { mode = 'development' }) => {
       ]
     },
     devServer: {
-      port: 9876
+      port: 9876,
+      hot: true,
+      historyApiFallback: true,
+      disableHostCheck: true
     }
   }
 }
