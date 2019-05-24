@@ -6,6 +6,7 @@
   "author": "Ian Walter <public@iankwalter.com> (https://iankwalter.com)",
   "license": "SEE LICENSE IN LICENSE",
   "scripts": {
+    "lint": "eslint src",
     "build": "webpack -p",
     "start": "webpack-dev-server"
   },
@@ -27,6 +28,12 @@
     "webpack-dev-server": "^3.4.1"
   },
   "renovate": {
+    "extends": [
+      "@ianwalter"
+    ]
+  },
+  "eslintConfig": {
+    "root": true,
     "extends": [
       "@ianwalter"
     ]
