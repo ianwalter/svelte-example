@@ -10,7 +10,7 @@ module.exports = (_, { mode = 'development' }) => {
     mode,
     entry: './src/main.js',
     output: {
-      filename: `js/[name].[${isProduction ? 'contenthash' : 'hash'}].js`,
+      filename: `js/[name].[${isProduction ? 'contenthash' : 'hash'}].js`
     },
     resolve: {
       extensions: ['.js', '.svelte', '.json'],
