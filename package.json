@@ -11,7 +11,7 @@
     "start": "webpack-dev-server"
   },
   "dependencies": {
-    "@ianwalter/history-router": "^0.0.1"
+    "@ianwalter/history-router": "^1.0.0"
   },
   "devDependencies": {
     "@ianwalter/bff": "^5.0.0",
