@@ -86,10 +86,10 @@
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.4.3.tgz#eb3ac80f64aa101c907d4ce5406360fe75b7895b"
   integrity sha512-gxpEUhTS1sGA63EGQGuA+WESPR/6tz6ng7tSHFCmaTJK/cGK8y37cBTspX+U2xCAue2IQVvF6Z0oigmjwD8YGQ==
 
-"@babel/runtime-corejs3@^7.4.4":
-  version "7.4.4"
-  resolved "https://registry.yarnpkg.com/@babel/runtime-corejs3/-/runtime-corejs3-7.4.4.tgz#37fab72b23e6c7024e8ae494a2cd019cae2a2206"
-  integrity sha512-9uYCgQvCVw4Jl5vVyTt6ZYIAgsLyAKx0CvBqOJW0D/bRx/jSOQS1A+31GiisgKhgyTt3/CWnbdGzFxxw8NOtlw==
+"@babel/runtime-corejs3@^7.4.5":
+  version "7.4.5"
+  resolved "https://registry.yarnpkg.com/@babel/runtime-corejs3/-/runtime-corejs3-7.4.5.tgz#7df89702351c5fdc34b5555544fcf11b4ea7051c"
+  integrity sha512-yxHpUObdpx4zbuLJOHIZkw43E4NbWGsGH+85kRUj+VEcdtjlqI0vDcAja9mwOHqD7/4vCZp69q6eztz/sFDibQ==
   dependencies:
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.2"
@@ -177,12 +177,12 @@
     eslint-plugin-promise "^4.1.1"
     eslint-plugin-standard "^4.0.0"
 
-"@ianwalter/history-router@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@ianwalter/history-router/-/history-router-0.0.1.tgz#ed7138ddb2685f370ccb3c1f3f72d0a8532f907d"
-  integrity sha512-yHTv8uTqnHVMNzX2+0mQQ0JJ5R6d89XJHFAB2Le4ib8CkjbOBHw68Hkt+jE2DzPx8qSVLhtoTkR1kfPnZKPHCQ==
+"@ianwalter/history-router@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/history-router/-/history-router-1.0.0.tgz#7bef13350726a90aa49fd6014bd98df33e1df253"
+  integrity sha512-D+xahZVGNxyJZqGajFMj22d4V1LHAQ9s9kSRYZNEz3fBiiszysXDAwTd2lVSGqoc6qsfFTsQIfCD/Myql+DG7g==
   dependencies:
-    "@babel/runtime-corejs3" "^7.4.4"
+    "@babel/runtime-corejs3" "^7.4.5"
     "@ianwalter/router" "^1.1.0"
 
 "@ianwalter/log@^3.0.0":
