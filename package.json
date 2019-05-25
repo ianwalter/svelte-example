@@ -14,7 +14,7 @@
     "@ianwalter/history-router": "^1.0.0"
   },
   "devDependencies": {
-    "@ianwalter/bff": "^5.0.0",
+    "@ianwalter/bff": "^5.1.1",
     "@ianwalter/eslint-config": "^1.1.3",
     "@ianwalter/renovate-config": "^1.1.0",
     "clean-webpack-plugin": "^2.0.2",
