@@ -23,6 +23,7 @@ module.exports = (_, { mode = 'development' }) => {
     ],
     module: {
       rules: [
+        { test: /\.js$/, include: src, loader: 'babel-loader' },
         {
           test: /\.svelte$/,
           include: src,
