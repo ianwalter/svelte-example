@@ -178,10 +178,10 @@
     eslint-plugin-promise "^4.1.1"
     eslint-plugin-standard "^4.0.0"
 
-"@ianwalter/history-router@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/history-router/-/history-router-1.0.0.tgz#7bef13350726a90aa49fd6014bd98df33e1df253"
-  integrity sha512-D+xahZVGNxyJZqGajFMj22d4V1LHAQ9s9kSRYZNEz3fBiiszysXDAwTd2lVSGqoc6qsfFTsQIfCD/Myql+DG7g==
+"@ianwalter/history-router@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/history-router/-/history-router-2.0.0.tgz#5b2275e1e33bb2677bc053fb1ced116ed6e4f434"
+  integrity sha512-CGb76PD1aylrl14c50tS2D+BWhbii9G+7GDo2A3ZFGcE/ZB5oefKBV5ezlm5+olrozJpX4QrTLy59W+wJqEOvw==
   dependencies:
     "@babel/runtime-corejs3" "^7.4.5"
     "@ianwalter/router" "^1.1.0"
