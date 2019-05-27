@@ -13,7 +13,7 @@ module.exports = (_, { mode = 'development' }) => {
       filename: `js/[name].[${isProduction ? 'contenthash' : 'hash'}].js`
     },
     resolve: {
-      extensions: ['.js', '.svelte', '.json'],
+      extensions: ['.mjs', '.js', '.svelte', '.json'],
       alias: { '@': src }
     },
     plugins: [
@@ -37,7 +37,7 @@ module.exports = (_, { mode = 'development' }) => {
           include: src,
           use: [
             {
-              loader:  MiniCssExtractPlugin.loader,
+              loader: MiniCssExtractPlugin.loader,
               options: { hmr: !isProduction }
             },
             'css-loader'
