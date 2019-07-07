@@ -17,7 +17,7 @@
   "devDependencies": {
     "@babel/preset-env": "^7.5.0",
     "@ianwalter/bff": "^6.3.1",
-    "@ianwalter/eslint-config": "^2.0.1",
+    "@ianwalter/eslint-config": "^2.1.0",
     "@ianwalter/renovate-config": "^1.1.1",
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^2.0.2",
