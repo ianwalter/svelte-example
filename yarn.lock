@@ -6155,10 +6155,10 @@ svelte-loader@^2.13.6:
     loader-utils "^1.1.0"
     svelte-dev-helper "^1.1.9"
 
-svelte@^3.6.11:
-  version "3.6.11"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.6.11.tgz#1ad6638d629ff8f280639687aef0a6a659f09802"
-  integrity sha512-pm8k34grr20MaL0+Tx2m7rxJ0MP6mqj0FxWcTWuOc6TR6TYLq5251shgfhVpy5n7NQUGyp2VqiBAGdSodWmvtg==
+svelte@^3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.7.0.tgz#242030f8862c7200264f8e67df611a101fa87727"
+  integrity sha512-Qp5qxdYghSwXADCdaTLmL4gDUzhSfi6X7oWDJaEGJQXkCn1a8zxIBDJe2oQS6oHQzZqwvcppPqIoOySNLRw34w==
 
 table@^5.2.3:
   version "5.2.3"
