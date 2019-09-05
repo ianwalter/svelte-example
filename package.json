@@ -27,7 +27,7 @@
     "svelte": "^3.9.2",
     "svelte-loader": "^2.13.6",
     "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.7",
+    "webpack-cli": "^3.3.8",
     "webpack-dev-server": "^3.8.0"
   },
   "renovate": {
