@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@ianwalter/history-router": "^2.1.0",
-    "core-js": "^3.1.4"
+    "core-js": "^3.2.1"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.6.0",
