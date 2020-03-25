@@ -19,7 +19,7 @@
     "@ianwalter/bff": "^6.4.0",
     "@ianwalter/eslint-config": "^4.0.0",
     "@ianwalter/renovate-config": "^1.2.0",
-    "babel-loader": "^8.0.6",
+    "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^2.0.2",
     "css-loader": "^3.2.0",
     "html-webpack-plugin": "^3.2.0",
