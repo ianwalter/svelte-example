@@ -788,12 +788,12 @@
     eslint-plugin-promise "^4.2.1"
     eslint-plugin-standard "^4.0.1"
 
-"@ianwalter/history-router@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/history-router/-/history-router-2.1.0.tgz#97eada56996edf5e887c2e50fac45e8be20c5140"
-  integrity sha512-VEff5u2XFatRhLwtXmb4s9tl7B/JecBzL41c0osKbzZAWs27LMjtIZf3N/YRmVuehw3YpLnOKepDpCKI+rK5mA==
+"@ianwalter/history-router@^5.3.0":
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/history-router/-/history-router-5.3.0.tgz#07b044f7dac2b5089651c3f2a01e24f05c102d4e"
+  integrity sha512-FY7J8qZcfEyeNlo3ckau4JPPkXIwJu4IHnIjR8H70Yie+353zcLXYp1me/178o94JTMUnKimncU/RGoZuPeEsA==
   dependencies:
-    "@ianwalter/router" "^1.1.0"
+    "@ianwalter/router" "^3.3.0"
 
 "@ianwalter/log@^3.0.0":
   version "3.0.0"
@@ -804,6 +804,11 @@
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/@ianwalter/merge/-/merge-5.0.0.tgz#972b3cd668ab87416fba1af99186cd83d34d687f"
   integrity sha512-Z+Xn8dT0ApkjGizdwMQaCgsAyHO+zKhCC2OYO7lEYLs1IdCzXtRUYah3vkIWT8/Ad94ni0rxtR39VTRWJE1/Qw==
+
+"@ianwalter/merge@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/merge/-/merge-6.0.0.tgz#7d7facccc86fb407571c78de00a0bd2adca395cb"
+  integrity sha512-Ohskh/vqQFgW2Abaxd3kPYz/uNqoUmCSjU8kB8SoRieQqIOyXit1pFKYW4HmcoRcDFbktpWmS1QpIBoF74DGBg==
 
 "@ianwalter/print@^3.0.1":
   version "3.0.1"
@@ -821,10 +826,13 @@
   resolved "https://registry.yarnpkg.com/@ianwalter/renovate-config/-/renovate-config-1.2.0.tgz#f84e2fc56ad5d29c0876058c16c25db95baf74a9"
   integrity sha512-OSvziSdR0gxnWeH+9KbS9+HjojFa73vqNFU7wAxWs2ZV/9YofpKw0HwGtzyYgb1xVk8g6ZFPMYaTnFZ4Af6N/w==
 
-"@ianwalter/router@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/router/-/router-1.1.0.tgz#a16e186555157f4803d937deeb5ed7d38705e25f"
-  integrity sha512-yk+eHcgk8tVDbIxkYKIFx1U1Z11qoc8V3PXdreeR4n5TydI8RPJhTmQ5l0Uq+AAdCp7BTpM6XaF90f0693VYcA==
+"@ianwalter/router@^3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/router/-/router-3.3.0.tgz#01238bac61b7a8700b4748ba425732f27c85154e"
+  integrity sha512-R7UMduly07w5DdRE++8rJkA5dHbHN6ugZnD2lTXpiMIwYMILEDyz85I++r1vwxgmVBAJxkkjjKYFshL6qbh6zw==
+  dependencies:
+    "@ianwalter/merge" "^6.0.0"
+    koa-compose "^4.1.0"
 
 "@jest/console@^24.7.1":
   version "24.7.1"
@@ -4114,6 +4122,11 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
   integrity sha512-s5kLOcnH0XqDO+FvuaLX8DDjZ18CGFk7VygH40QoKPUQhW4e2rvM0rwUq0t8IQDOwYSeLK01U90OjzBTme2QqA==
+
+koa-compose@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/koa-compose/-/koa-compose-4.1.0.tgz#507306b9371901db41121c812e923d0d67d3e877"
+  integrity sha512-8ODW8TrDuMYvXRwra/Kh7/rJo9BtOfPc6qO8eAfC80CnCvSjSl0bkRM24X6/XBBEyj0v1nRUQ1LyOy3dbqOWXw==
 
 lcid@^2.0.0:
   version "2.0.0"
