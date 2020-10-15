@@ -18,7 +18,7 @@
     "@babel/preset-env": "^7.12.0",
     "@ianwalter/bff": "^9.11.0",
     "@ianwalter/eslint-config": "^5.4.0",
-    "@ianwalter/renovate-config": "^1.4.0",
+    "@ianwalter/renovate-config": "^1.4.1",
     "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^4.3.0",
