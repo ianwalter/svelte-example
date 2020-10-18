@@ -1784,10 +1784,10 @@
   resolved "https://registry.yarnpkg.com/@generates/merger/-/merger-0.0.1.tgz#7cd269495f958c49117094837486464bd4e02815"
   integrity sha512-A0zgTrlKJcroOOxx7GOY+OmVvGYVusG0UlhJLC/q8OvpQzF5xHE/jwW7mfPt5anJwHaRgWcWwjfQAFtk3HtYRA==
 
-"@ianwalter/bff@^9.12.0":
-  version "9.12.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-9.12.0.tgz#ee4f8532d4bca37ab74eb312b48e97dc9953c98a"
-  integrity sha512-34JY9MW3plMHQGnxcIOBKIynROXP14IyV4LLZmleVdGRUjRvmyE3rrIpnOSzrgWJ7ApOWA1PmbOTGadSrCXcrg==
+"@ianwalter/bff@^9.12.1":
+  version "9.12.1"
+  resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-9.12.1.tgz#f470c902084836fccf77dc5fbe69b286da4666f9"
+  integrity sha512-bF+etehzUFNaWiKKDg2HGPYNZnCXyZJVLlp42ZfIQ4Atd9yLl7p1r2Bh0dsBYdttPpm7z5LM/AAd1iv9ys7RcQ==
   dependencies:
     "@generates/logger" "^0.0.8"
     "@ianwalter/cli" "^4.1.0"
