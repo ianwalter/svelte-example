@@ -15,7 +15,7 @@
     "core-js": "^3.6.5"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-env": "^7.12.7",
     "@ianwalter/bff": "^9.12.1",
     "@ianwalter/eslint-config": "^5.4.0",
     "@ianwalter/renovate-config": "^1.4.2",
