@@ -1089,16 +1089,15 @@
   resolved "https://registry.yarnpkg.com/@generates/merger/-/merger-0.0.1.tgz#7cd269495f958c49117094837486464bd4e02815"
   integrity sha512-A0zgTrlKJcroOOxx7GOY+OmVvGYVusG0UlhJLC/q8OvpQzF5xHE/jwW7mfPt5anJwHaRgWcWwjfQAFtk3HtYRA==
 
-"@ianwalter/bff@^9.12.2":
-  version "9.12.2"
-  resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-9.12.2.tgz#081280ad45558aebd28bf8af1723ef9e4a8136a6"
-  integrity sha512-BlnnT1QTVJTTdWEm5cftesA3e57z1VpOn0F4kvvxpIbzziABfhJza3xf1/FiIiEbDScvRHM0LbWfysYRgW975Q==
+"@ianwalter/bff@^9.12.3":
+  version "9.12.3"
+  resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-9.12.3.tgz#c89d3e0f6b88ad5412c8f24134ab74c63bca0834"
+  integrity sha512-e2oAW25bJdHR24bOcaFF9L43UYRFbPaeGz1gyp4Pj06p8ShEq4hHuWr8+jQXC/+YsZ8aoprxDH9jU6pX/zkFHQ==
   dependencies:
     "@generates/logger" "^0.0.8"
     "@ianwalter/cli" "^4.1.0"
     "@ianwalter/clone" "^6.0.1"
     "@ianwalter/cloneable" "^2.0.0"
-    "@ianwalter/print" "^8.0.3"
     "@ianwalter/sleep" "^0.0.1"
     "@ianwalter/subpub" "^3.0.0"
     "@ianwalter/timer" "^2.0.2"
@@ -1221,24 +1220,6 @@
     has-emoji "^1.1.0"
     marked "^0.8.0"
     marked-terminal "^4.0.0"
-    strip-ansi "^6.0.0"
-
-"@ianwalter/print@^8.0.3":
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/print/-/print-8.1.0.tgz#5358b9c0a93a01451bb6c18a9a241a360556eb4a"
-  integrity sha512-1C3oH2YYpfPsRELDK2GDLEyzUNqBu4RMFrkbL+IFG5QrigAKX0wC64gjcmXkgGI9wGUEQ0R3vjnR/yMzC+Yymw==
-  dependencies:
-    "@ianwalter/chromafi" "^1.0.1"
-    "@ianwalter/cli" "^4.1.0"
-    "@ianwalter/clone" "^6.0.1"
-    "@ianwalter/cloneable" "^2.0.0"
-    "@ianwalter/dot" "^1.0.4"
-    "@ianwalter/merge" "^9.0.1"
-    chalk "^4.1.0"
-    has-ansi "^4.0.0"
-    has-emoji "^1.1.0"
-    marked "^1.1.1"
-    marked-terminal "^4.1.0"
     strip-ansi "^6.0.0"
 
 "@ianwalter/renovate-config@^1.4.2":
