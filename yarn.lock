@@ -1053,18 +1053,23 @@
     marked-terminal "^4.1.0"
     strip-ansi "^6.0.0"
 
-"@generates/merger@^0.1.0", "@generates/merger@^0.1.1":
+"@generates/merger@^0.1.0":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@generates/merger/-/merger-0.1.1.tgz#c5b273f95ecc2893e41eb131aea49f71f78c656c"
   integrity sha512-jlO57SAsyw3sI7fpgHLzx7CdpklW4hciHoILR0lylj0WlMBD1PpRfULeqfiWjUV5NxGuhrxQqZ4vrPteKEZKNg==
 
-"@ianwalter/bff@^10.0.0":
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-10.0.0.tgz#90f0d7b5878c17416676c667cf6d393a5ea7af17"
-  integrity sha512-hOqX9ymgQxls39zwuGfIJ5/OTqM50vmtYP7jsDtWf0+Yk/mlA2swE79T6QRtbtlpcoZziZk1uZV3XOkc0Gritw==
+"@generates/merger@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@generates/merger/-/merger-0.1.2.tgz#a90ccdae4b4ce56131d9c28eb17241fe00db77d5"
+  integrity sha512-t1Mi5mtIwCbcKxqZ5v+7Ds570gwTfo5vAXr0Q3naaMxfnCc6CychGHh/GyF6nK3qYIxh9BJhThVTiCfN+ukMuQ==
+
+"@ianwalter/bff@^10.0.1":
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-10.0.1.tgz#d631e3e2f182ef1e9b94d18221a7d1a48574d7db"
+  integrity sha512-XYwJSBgaFyIzqx9o7gf1s/LcEL/iUhIWwwPqAAjFbPrBf/N86c6kFksZWE6KlTxGrxNgWpu4bJPD7x0lztx8oQ==
   dependencies:
     "@generates/logger" "^0.0.9"
-    "@generates/merger" "^0.1.1"
+    "@generates/merger" "^0.1.2"
     "@ianwalter/cli" "^4.1.0"
     "@ianwalter/clone" "^6.0.1"
     "@ianwalter/cloneable" "^2.0.0"
